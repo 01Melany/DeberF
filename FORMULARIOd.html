@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ingreso de datos</title>
+    <body style="Background-color:pink;">
+<!---</head>---->
+
+
+    <h1>Bienvenido a Libros y Café</h1>
+    <hr>
+    <h2>Datos del cliente</h2>
+    <form>
+
+    <table>
+     <tr>
+    <td><label for="nombre"> Nombre:</label><td>
+    <td><input type="text" id="nombre" name="nombre"><td>
+     </tr>
+
+<tr>
+    <td><label for="apellido">Apellido:</label><td>
+    <td><input type="text" id="apellido" name="apellido"><td>
+ </tr>
+
+ <tr>
+    <td><label for="edad"> Edad:</label><td>
+    <td><input type="text" id="edad" name="edad"><td>
+</tr>
+
+
+<tr>
+      <td><label for="id">ID:</label><td>
+      <td><input type="text" id="id" name="id"><td>
+</tr>
+<tr>
+      <td><label for="celular">Celular:</label><td>
+      <td><input type="text" id="celular" name="celular"><td>
+</tr>
+</table>
+<hr>
+
+ <div>
+          <br>
+          <label for="color">Genero del libro :</label>
+<select id="color" name="color">
+  <option value="1">Eligue aqui</option>
+  <option value="2">Romance</option>
+  <option value="3">Terror</option>
+  <option value="4">comedia</option>
+  <option value="5">ficcion</option>
+
+</select>
+      </div>
+<br>
+<div>
+<br>
+  Ingrese el nombre del libro que desea:
+<br>
+    <label for="Nombre del libro"> Nombre del libro:</label>
+    <input type="text" id="Nombre del libro" name="Nombre del libro">
+</div>
+<br>
+
+Medio de pago :
+    <br>
+    <input type="checkbox"  name="PayPal" value="si">PayPal
+    <br>
+    <input type="checkbox"  name="Bancos online" value="CHECKED">Bancos online
+<br>
+<div>
+<br>
+Preferencias de lector:
+<br>
+<input type="radio" id="Libros de tapa dura" name="boton 1" value="1">Libros de tapa dura
+    <br>
+  <input type="radio"  name="boton 1" value="2">Libros de tapa blanda
+    <br>
+  </div>
+      <br>
+      <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
